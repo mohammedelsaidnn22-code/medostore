@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDO STORE | الصفحة الرسمية</title>
+    <!-- ربط خط عربي أنيق (Cairo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- ربط أيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ملف الـ CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-glow-effects"></div>
+
+    <div class="container">
+        <!-- الهيدر أو رأس الصفحة (اللجو والاسم مع علامة التوثيق المتحركة) -->
+        <header class="profile-header">
+            <div class="avatar-container">
+                <div class="glow-effect"></div>
+                <!-- مكان الشعار أو صورتك -->
+                <img src="800114626_18078757586706573_6938030464174535982_n.jpg" alt="MEDO STORE Logo" class="store-logo" onerror="this.src='https://via.placeholder.com/120/111/00ffcc?text=MEDO'">
+            </div>
+            
+            <div class="store-title-wrapper">
+                 <div class="verified-badge-motion" title="حساب موثق">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+                <h1>MEDO STORE</h1>
+                <!-- علامة التوثيق المتحركة (Motion) -->
+               
+            </div>
+
+            <p class="tagline">متجرك الأول لشحن اللعاب والتطيبقات ⚡</p>
+            <div class="status-badge">
+                <span class="pulse"></span> متاح الآن للخدمات والدعم
+            </div>
+        </header>
+
+        <!-- قسم وسائل التواصل الاجتماعي -->
+        <section class="links-section">
+            <h2><i class="fa-solid fa-share-nodes"></i> تواصل معنا مباشرة</h2>
+            
+            <a href="https://wa.me/201002763474" target="_blank" class="custom-btn whatsapp-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>تواصل واتساب (رقمي الخاص)</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+
+            <a href="https://whatsapp.com/channel/0029Vb7oSsGEQIatMi7n7u3V" target="_blank" class="custom-btn channel-btn">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>انضم لقناة الواتساب الرسمية</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+
+            <a href="https://www.facebook.com/share/g/1F7TS8Mrqt/" target="_blank" class="custom-btn fb-btn">
+                <i class="fa-brands fa-facebook"></i>
+                <span>جروب الفيس بوك الرسمي</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+
+            <a href="https://www.instagram.com/mohamed.elsa7ed?stkn=Z24xdmxyZGpteWUy" target="_blank" class="custom-btn insta-btn">
+                <i class="fa-brands fa-instagram"></i>
+                <span>تابعنا على إنستجرام</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+            <a href="https://t.me/@MEDO_ST7RE" target="_blank" class="custom-btn telegram-btn">
+                <i class="fa-brands fa-telegram"></i>
+                <span>تواصل معنا على تليجرام</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+
+              <a href="https://www.facebook.com/share/1Bz2QPGTkL/" target="_blank" class="custom-btn fb-btn">
+                <i class="fa-brands fa-facebook"></i>
+                <span>صفحه الفيس بوك الرسمي</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+        </section>
+
+        <!-- قسم الدفع والإنستا باي -->
+     <!-- قسم الدفع والإنستا باي -->
+        <section class="links-section payment-section">
+            <h2><i class="fa-solid fa-wallet"></i> طرق الدفع المتاحة</h2>
+
+            <!-- فودافون كاش / محفظة -->
+            <div class="copy-box">
+                <div class="info">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <div>
+                        <span class="label">اتصالات كاش (محفظة)</span>
+                        <span class="value" id="cashNumber">01128416672</span>
+                    </div>
+                </div>
+                <button class="copy-btn" onclick="copyText('cashNumber', this)">
+                    <i class="fa-regular fa-copy"></i> نسخ
+                </button>
+            </div>
+
+            <!-- إنستا باي (رقم الحساب / الهاتف) -->
+            <div class="copy-box">
+                <div class="info">
+                    <i class="fa-solid fa-building-columns"></i>
+                    <div>
+                        <span class="label">إنستا باي  </span>
+                        <span class="value" id="instaPhone">01128416672</span>
+                    </div>
+                </div>
+                <button class="copy-btn" onclick="copyText('instaPhone', this)">
+                    <i class="fa-regular fa-copy"></i> نسخ
+                </button>
+            </div>
+
+            <!-- إنستا باي (رابط مباشر يفتح التطبيق) -->
+            <a href="https://ipn.eg/S/mohamedelsayed1072/instapay/2tw0Pc" target="_blank" class="custom-btn instapay-link-btn">
+                <i class="fa-solid fa-bolt"></i>
+                <span>اضغط هنا للتحويل الفوري عبر إنستاباي</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+        </section>
+
+        <!-- قسم الضمان والثقة -->
+        <section class="links-section guarantee-section">
+            <h2><i class="fa-solid fa-shield-halved"></i> الثقة والأمان</h2>
+            <a href="https://www.facebook.com/share/p/1PviJFTWFr/" target="_blank" class="custom-btn guarantee-btn">
+                <i class="fa-solid fa-certificate"></i>
+                <span>بوست الضمان وآراء العملاء السابقة</span>
+                <i class="fa-solid fa-chevron-left arrow"></i>
+            </a>
+        </section>
+
+        <!-- الفوتر أو أسفل الصفحة -->
+        <footer>
+            <p>جميع الحقوق محفوظة &copy; 2026 <span>MEDO STORE</span></p>
+        </footer>
+    </div>
+
+    <!-- ملف الـ JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

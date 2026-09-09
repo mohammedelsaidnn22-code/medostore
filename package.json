@@ -1,0 +1,21 @@
+{
+  "name": "medostore",
+  "version": "1.0.0",
+  "description": "MEDO STORE - متجرك الأول لشحن الألعاب وخدمات السوشيال ميديا",
+  "main": "script.js",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "build": "echo 'Build completed successfully'",
+    "lint": "echo 'Lint completed successfully'"
+  },
+  "keywords": [
+    "store",
+    "gaming",
+    "social-media"
+  ],
+  "author": "MEDO STORE",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
